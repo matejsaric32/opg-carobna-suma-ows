@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Čarobna šuma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="../style/styleProductes.css" />
+  <link rel="stylesheet" href="../style/form.css" />
+
+
+</head>
+<body>
+
+<header>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("hamburgerNav");
+      if (x.className === "hide") {
+        x.className += " show";
+      } else {
+        x.className = "hide";
+      }
+    }
+  </script>
+  <div class="navigation">
+    <div class="logo-container">
+      <a href="../index.html">
+        <img class="img-logo" src="../img/carbona_suma_logo.jpg" alt="logo"/>
+      </a>
+    </div>
+    <nav class="top-nav" id="top-nav">
+      <a href="../index.html" class="nav-element"><p class="makniSve hover-underline-animation">Naslovna</p></a>
+      <a href="productes.html" class="nav-element"><p class="makniSve hover-underline-animation">Proizvodi</p></a>
+      <a href="radionice.html" class="nav-element"><p class="makniSve hover-underline-animation">Radionica</p></a>
+      <a href="aktivnosti.html" class="nav-element"><p class="makniSve hover-underline-animation">Aktivnosti</p></a>
+      <a href="kontakt.html" class="nav-element"><p class="makniSve hover-underline-animation">Kontakt</p></a>
+      <a href="cart.html" class="nav-element"><p class="makniSve hover-underline-animation"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Košarica</p></a>
+      <a href="javascript:void(0);" class="hamburger-menu" onclick="myFunction()">
+        <i class="fa fa-bars fa-white" id="hamburger"></i>
+      </a>
+    </nav>
+  </div>
+  <nav class="hide" id="hamburgerNav">
+    <a href="../index.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Naslovna</p></a>
+    <a href="productes.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Proizvodi</p></a>
+    <a href="radionice.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Radionica</p></a>
+    <a href="aktivnosti.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Aktivnosti</p></a>
+    <a href="kontakt.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Kontakt</p></a>
+    <a href="cart.html" class="nav-element-1"><p class="makniSve hover-underline-animation"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Košarica</p></a>
+
+  </nav>
+</header>
+  <div class="container-A">
+  <div class="global-wrapper">
+    <div class="product-title-continer">
+      <div class="line-title"><hr></div>
+      <div class="product-title">
+        <h1 class="text-align-center">Proizvodi</h1>
+      </div>
+      <div class="line-title"><hr></div>
+    </div>
+
+      <div class="main-container">
+        <div class="search-form">
+          <form>
+            <h2 class="category-form-group-label">Kategorije</h2>
+
+            <label class="container">Voće
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Povrće
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+            <br>
+            <label class="container">Povrće
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+            <br>
+
+            <h2 class="category-form-group-label">Kategorije</h2>
+            <input type="range">
+          </form>
+        </div>
+
+        <div class="products-grid">
+
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/limun.jfif" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Limun</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">2</p>
+                <p class="font-size-1-2">49€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">18,83 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/f01be07266bbc10fa5c98438ae144b6610cfa79ad344cd3480e7432245669b41.jpg" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Banana</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">1</p>
+                <p class="font-size-1-2">99€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">15,07 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/vidi_martine_pretvorio_sam_se_u_kukumar_sada_sam_kukumar_ratko.jfif" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Kukumar</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">1</p>
+                <p class="font-size-1-2">99€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">15,07 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/avokado.jfif" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Salata</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">99</p>
+                <p class="font-size-1-2">99€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">756 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+
+
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/jabuka.jfif" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Jabuka</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">2</p>
+                <p class="font-size-1-2">99€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">21,37 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/kumpir.jfif" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Krumpor</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">0</p>
+                <p class="font-size-1-2">99€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">7,56 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/57ed05bea98bceae5f0eaada26b69cee6c61471d3030f7123d212844a35eba04%20(1).jfif" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Luk</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">3</p>
+                <p class="font-size-1-2">80€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">37,27 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+          <div class="product-card-grid">
+            <div class="center-that">
+              <a href="product.html">
+                <img src="../img/pexels-ella-olsson-1640768.jpg" class="image-card">
+              </a>
+            </div>
+            <p class="font-size-4">Staklenke pune njami njami</p>
+            <div class="product-card-price">
+              <div class="euro-price-container">
+                <p class="font-big-2">10</p>
+                <p class="font-size-1-2">99€<br>/kg</p>
+              </div>
+              <p class="light-grey-color font-size-3-2">15,07 kn/kg</p>
+            </div>
+            <div class="btn-container">
+              <button class="btn-add">+dodaj</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+  </div>
+  </div>
+<footer>
+  <div class="footer-container">
+    <div class="top-part-container">
+      <div class="slogan"><p>“Organski proizvodi za svakodnevno zadovoljstvo”</p></div>
+      <div class="socail-media">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div class="middle-part-container font-size-2">
+      <div class="shop-menu">
+        <p class="menu-underline">Shop</p>
+        <ul>
+          <li>Proizvoid</li>
+          <li>Voće</li>
+          <li>Povrće</li>
+          <li>Preradevine</li>
+        </ul>
+      </div>
+      <div class="shop-menu">
+        <p class="menu-underline">O nama</p>
+        <ul>
+          <li>Održivost</li>
+          <li>FAQ</li>
+          <li>Bloq</li>
+          <li>Terms of services</li>
+        </ul>
+      </div>
+      <div class="shop-menu">
+        <p class="menu-underline">Kontakt</p>
+        <ul>
+          <li>Bilje 45, 10000, Osjecno - baranjska</li>
+          <li>+385 091 5678 234</li>
+          <li>carobnasuma@email.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-part-container">
+      <p>© 2023 All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

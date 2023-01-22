@@ -1,0 +1,138 @@
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-right-container{
+    display: flex;
+    justify-content: center;
+    width: 48%;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 4px 4px 16px #a6a6a6;
+}
+
+.image-product{
+    width: 80%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.product-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.product-left-container{
+    width: 48%;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 4px 4px 16px #a6a6a6;
+}
+
+.product-specs-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.header-specs {
+    border-bottom: 2px solid black;
+    margin-bottom: 35px;
+}
+
+.category-name-top-left{
+    margin: 0px 0px 0px 0px;
+}
+
+.product-name-top-left{
+    margin: 20px 0px 10px 0px;
+}
+
+.price-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.price-part2{
+    font-size: 0.75rem;
+    margin: 0px 30px 0px 0px;
+}
+
+.controls-container{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.button-to-add-more-container{
+    display: flex;
+    margin-right: 40px;
+}
+
+.little-information{
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+.buttons-for-quantity{
+    color: #35cb67;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+.quantity-text{
+    margin: 5px 10px 0px 10px;
+    font-size: 1.2rem;
+}
+
+.header-about-product-information{
+    border-bottom: 2px solid black;
+}
+
+.product-information-content{
+    margin-top: 10px;
+}
+
+.product-recommended-img{
+    width: 400px;
+}
+
+.product-more-products-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 850px) {
+
+    .product-container{
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+        margin-bottom: unset;
+    }
+
+    .product-more-products-container{
+        flex-wrap: wrap;
+    }
+
+    .product-right-container{
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .product-left-container{
+        width: 90%;
+    }
+
+    .product-more-products-container{
+        padding: 5%;
+    }
+
+
+}

@@ -1,0 +1,215 @@
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #000000;
+    border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #e8e8e8;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #e8e8e8;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 4px;
+    top: 1px;
+    width: 3px;
+    height: 6px;
+    border: solid #000000;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 3px;
+    background: #000000;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #000000;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+.form-container-contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    box-shadow: 4px 4px 16px #a6a6a6;
+    padding: 20px 20px 50px 20px;
+
+}
+
+.header-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type=text]{
+    border-radius: 10px;
+    border: 1.5px solid #888888;
+    height: 20px;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+
+input[type=email]{
+    border-radius: 10px;
+    border: 1.5px solid #888888;
+    height: 20px;
+    padding: 5px;
+    font-size: 0.8rem;
+    width: 390px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
+.global-wrapper-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.top-part-form{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.form{
+    width: 100%;
+}
+
+.email-part{
+    margin-bottom: 20px;
+}
+
+textarea{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #888888;
+    height: 70px;
+    padding: 5px;
+    font-size: 0.8rem;
+    width: 390px;
+}
+
+.button-container{
+    margin-top: 20px;
+}
+
+.btn-send{
+    background-color: #35cb67;
+    color: white;
+    border-radius: 15px;
+    border: #35cb67;
+    padding: 10px 30px 10px 30px;
+    font-size: 1rem;
+    transition-duration: 0.25s;
+    transition-timing-function: linear;
+}
+
+.map-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.map-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 800px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 4px 4px 16px #a6a6a6;
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .map-wrapper{
+        width: 90%;
+    }
+
+}

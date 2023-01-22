@@ -1,0 +1,137 @@
+
+.cart-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+.global-wrapper{
+    margin-bottom: 50px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cart-img{
+    width: 100px;
+    object-fit: cover;
+}
+
+
+.cart-list-of-products{
+    width: 65%;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.product-in-card{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+.product-in-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+
+.product-category-container{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.product-name-container{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.product-quantity-container{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.product-price-per-kg-container{
+    display: flex;
+    align-items: center;
+}
+
+.price-container{
+    display: flex;
+}
+
+.product-price-sum-container{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.cart-details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: right;
+    padding: 20px 40px 20px 40px;
+    width: 20%;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.span-size1{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.span-size2{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.kuna-style{
+    font-size: 0.8rem;
+    color: #333333;
+}
+
+.price-part{
+    margin-bottom: 50px;
+}
+
+.delivery-info-part{
+    text-align: left;
+}
+
+.btn-finish-shopping{
+    width: 100%;
+    padding: 15px 40px 15px 40px;
+    background-color: #35cb67;
+    color: white;
+    border-radius: 15px;
+    border: #35cb67;
+}
+
+@media screen and (max-width: 850px) {
+
+    .cart-container{
+        flex-direction: column;
+    }
+
+    .cart-list-of-products{
+        width: 80%;
+        margin-right: unset;
+        margin-bottom: 50px;
+    }
+
+    .cart-details{
+        width: 80%;
+    }
+}

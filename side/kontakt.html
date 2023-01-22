@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Čarobna šuma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../style/style.css" />
+  <link rel="stylesheet" href="../style/styleProductes.css" />
+  <link rel="stylesheet" href="../style/form.css" />
+  <link rel="stylesheet" href="../style/styleCart.css" />
+
+
+</head>
+<body>
+
+<header>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("hamburgerNav");
+      if (x.className === "hide") {
+        x.className += " show";
+      } else {
+        x.className = "hide";
+      }
+    }
+  </script>
+  <div class="navigation">
+    <div class="logo-container">
+      <a href="../index.html">
+        <img class="img-logo" src="../img/carbona_suma_logo.jpg" alt="logo"/>
+      </a>
+    </div>
+    <nav class="top-nav" id="top-nav">
+      <a href="../index.html" class="nav-element"><p class="makniSve hover-underline-animation">Naslovna</p></a>
+      <a href="productes.html" class="nav-element"><p class="makniSve hover-underline-animation">Proizvodi</p></a>
+      <a href="radionice.html" class="nav-element"><p class="makniSve hover-underline-animation">Radionica</p></a>
+      <a href="aktivnosti.html" class="nav-element"><p class="makniSve hover-underline-animation">Aktivnosti</p></a>
+      <a href="kontakt.html" class="nav-element"><p class="makniSve hover-underline-animation">Kontakt</p></a>
+      <a href="cart.html" class="nav-element"><p class="makniSve hover-underline-animation"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Košarica</p></a>
+      <a href="javascript:void(0);" class="hamburger-menu" onclick="myFunction()">
+        <i class="fa fa-bars fa-white" id="hamburger"></i>
+      </a>
+    </nav>
+  </div>
+  <nav class="hide" id="hamburgerNav">
+    <a href="../index.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Naslovna</p></a>
+    <a href="productes.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Proizvodi</p></a>
+    <a href="radionice.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Radionica</p></a>
+    <a href="aktivnosti.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Aktivnosti</p></a>
+    <a href="kontakt.html" class="nav-element-1"><p class="makniSve hover-underline-animation">Kontakt</p></a>
+    <a href="cart.html" class="nav-element-1"><p class="makniSve hover-underline-animation"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Košarica</p></a>
+
+  </nav>
+</header>
+
+<div class="global-wrapper-form">
+    <div class="form-container-contact">
+      <div class="product-title-continer">
+        <div class="line-title"><hr></div>
+        <div class="product-title">
+          <h2 class="text-align-center">Kontaktirajte nas</h2>
+        </div>
+        <div class="line-title"><hr></div>
+      </div>
+
+      <div class="form">
+        <form>
+          <div class="top-part-form">
+            <div>
+              <label>Ime:</label><br>
+              <input type="text" class="text_input" required>
+            </div>
+            <div>
+              <label>Prezime:</label><br>
+              <input type="text" class="text_input" required>
+            </div>
+          </div>
+
+          <div class="email-part">
+            <label>Email:</label><br>
+            <input type="email" class="text_input" required>
+          </div>
+
+          <div class="comment-part">
+            <label>Comment:</label><br>
+            <textarea></textarea>
+          </div>
+
+          <div class="button-container">
+            <input type="submit" class="btn-send" value="Pošalji">
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+
+<div class="global-wrapper-form bg-white">
+  <div class="map-container">
+    <div class="map-wrapper">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2790.903771473725!2d18.755984851147762!3d45.612577731448816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475cdd77bcb72a41%3A0xfbb92daec8b566bd!2sOPG%20Cudesna%20Suma!5e0!3m2!1sen!2shr!4v1673972551130!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-container">
+    <div class="top-part-container">
+      <div class="slogan"><p>“Organski proizvodi za svakodnevno zadovoljstvo”</p></div>
+      <div class="socail-media">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+    </div>
+
+    <div class="middle-part-container font-size-2">
+      <div class="shop-menu">
+        <p class="menu-underline">Shop</p>
+        <ul>
+          <li>Proizvoid</li>
+          <li>Voće</li>
+          <li>Povrće</li>
+          <li>Preradevine</li>
+        </ul>
+      </div>
+      <div class="shop-menu">
+        <p class="menu-underline">O nama</p>
+        <ul>
+          <li>Održivost</li>
+          <li>FAQ</li>
+          <li>Bloq</li>
+          <li>Terms of services</li>
+        </ul>
+      </div>
+      <div class="shop-menu">
+        <p class="menu-underline">Kontakt</p>
+        <ul>
+          <li>Bilje 45, 10000, Osjecno - baranjska</li>
+          <li>+385 091 5678 234</li>
+          <li>carobnasuma@email.com</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bottom-part-container">
+      <p>© 2023 All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
